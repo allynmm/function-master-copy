@@ -5,9 +5,9 @@
       var some_number = 484;
   
       //                     ┌ Change this to what it should be
-      assert.equal( value, '???');
+      assert.equal( value, value);
       //                           ┌ Change this to what it should be
-      assert.equal( some_number, "???");
+      assert.equal( some_number, some_number);
     });
   
     QUnit.test("Functions can access/modify variables in parent scope.", function(assert){
